@@ -359,9 +359,6 @@ img {
   color: var(--background-text-white);
   background-color: var(--accent-color);
 }
-.soc-icon {
-  fill: currentColor;
-}
 
 /* Client */
 .client {
@@ -459,7 +456,6 @@ img {
 .footer-soc.no-margin {
   margin-right: 0;
 }
-
 .footer-button {
   display: flex;
   align-items: center;
@@ -467,8 +463,6 @@ img {
   /* padding: 10px 29px; */
   border: none;
   margin-top: 0;
-  padding-top: 10px;
-  padding-bottom: 10px;
   min-width: 200px;
   
   border-radius: 4px;
@@ -485,16 +479,16 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
-.footer-button .soc-icon {
+.footer-button .send-icon {
   padding-left: 10px;
 }
-
-/* button */
-/* .enter-mail {
-  display: block;
+.footer-form {
+  display: flex;
+}
+.enter-mail {
+  margin-right: 12px;
   width: 358px;
   height: 50px;
-  margin-right: 12px;
   padding: 0px;
   background: #2f303a;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -504,10 +498,16 @@ img {
   font-size: 16px;
   line-height: 1.87;
   color: var(--white-text-color);
-} */
+}
+.send-icon {
+  fill: currentColor;
+}
+
+
+/* button */
 .button {
-  margin-top: 0;
-  display: inline-block;
+  margin: 0;
+  border: none;
   border-radius: 4px;
   padding: 10px 32px;
   min-width: 200px;
@@ -519,7 +519,6 @@ img {
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.06em;
-  text-decoration: none;
   text-align: center;
 
   transition: visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
