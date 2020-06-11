@@ -359,6 +359,9 @@ img {
   color: var(--background-text-white);
   background-color: var(--accent-color);
 }
+.soc-icon {
+  fill: currentColor;
+}
 
 /* Client */
 .client {
