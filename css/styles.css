@@ -328,7 +328,7 @@ img {
   outline:none;
   border: 1px solid var(--accent-color);
 }
-.form-input:focus
+.form-input:focus,
 .form-field:focus-within .modal-icon {
   color: var(--accent-color);
 }
@@ -367,6 +367,12 @@ img {
 }
 .contract-link {
   color: var(--accent-color);
+}
+.form .button {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
 }
 
 /* section */
